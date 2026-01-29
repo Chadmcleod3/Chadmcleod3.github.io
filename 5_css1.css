@@ -27,12 +27,12 @@ a{
 }
 
 #para5{
-	color: blue;
+	color: red;
 }
 
 .styledPara{
 	background-color: white;
-	border: 1px solid black;
+	border: 1px white;
 	padding: 15px;
 	margin: 15px;
 	line-height: 1.5em;
@@ -57,4 +57,5 @@ td{
 	background color: lightgray;
 	border: 1px solid black;
 	padding: 5px;
+
 }
