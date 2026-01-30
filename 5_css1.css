@@ -1,61 +1,72 @@
-body{
-	background-color: lightblue;
+/* Background color for body */
+body {
+    background-color: lightblue;
 }
 
-h1{
-	text-align: center;
+/* Top header styling */
+h1 {
+    text-align: center;
 }
 
-h2{
-	font-size: 18px;
+/* Second level header styling */
+h2 {
+    font-size: 18px;
 }
 
-p{
-	line-height: 1.5em;
+/* Paragraph styling - 2nd paragraph with special styling */
+p {
+    line-height: 1.5em;
 }
 
-a{
-	color: blue;
+/* Link color styling */
+a {
+    color: blue;
 }
 
+/* Different color for w3schools link */
 #w3link {
-	color: red;
+    color: red;
 }
 
-#para4{
-	color: red;
+/* 4th and 5th paragraph colors */
+#para4 {
+    color: red;
 }
 
-#para5{
-	color: red;
+#para5 {
+    color: blue;
 }
 
-.styledPara{
-	background-color: white;
-	border: 1px white;
-	padding: 15px;
-	margin: 15px;
-	line-height: 1.5em;
+/* Styled paragraph with border, padding, margin, and width */
+.styledPara {
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+    line-height: 1.5em;
 }
 
-ol{
-	list-style-type: decimal-leading-zero;
+/* List styling with two-digit numbers */
+ol {
+    list-style-type: decimal-leading-zero;
 }
 
-table{
-	border: 1px solid black;
-	border-collapse: collapse;
+/* Table styling */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-th{
-	background-color: gray;
-	border: 1px solid black;
-	padding: 5px;
+/* Table header styling */
+th {
+    background-color: gray;
+    border: 1px solid black;
+    padding: 5px;
 }
 
-td{
-	background color: lightgray;
-	border: 1px solid black;
-	padding: 5px;
-
+/* Table cell styling */
+td {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 5px;
 }
