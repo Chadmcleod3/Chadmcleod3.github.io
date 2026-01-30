@@ -30,17 +30,21 @@ a {
 
 /* 4th and 5th paragraph colors */
 #para4 {
-    color: red;
+    color: white;
+    background-color: darkblue;
+    padding: 15px;
 }
 
 #para5 {
-    color: blue;
+    color: white;
+    background-color: darkblue;
+    padding: 15px;
 }
 
 /* Styled paragraph with border, padding, margin, and width */
 .styledPara {
     background-color: white;
-    border: 1px solid black;
+    border: 5px solid green;
     padding: 15px;
     margin: 15px;
     line-height: 1.5em;
@@ -70,4 +74,3 @@ td {
     border: 1px solid black;
     padding: 5px;
 }
-
