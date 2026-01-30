@@ -13,7 +13,7 @@ h2 {
     font-size: 18px;
 }
 
-/* Paragraph styling - 2nd paragraph with special styling */
+/* Paragraph styling */
 p {
     line-height: 1.5em;
 }
@@ -23,31 +23,25 @@ a {
     color: blue;
 }
 
-/* Different color for w3schools link */
-#w3link {
+/* W3schools link - different color (targeting the specific link) */
+a[href="http://www.w3schools.com"] {
     color: red;
 }
 
-/* 4th and 5th paragraph colors */
-#para4 {
-    color: white;
-    background-color: darkblue;
-    padding: 15px;
-}
-
-#para5 {
-    color: white;
-    background-color: darkblue;
-    padding: 15px;
-}
-
-/* Styled paragraph with border, padding, margin, and width */
-.styledPara {
+/* Paragraph with id="paragraph2" - green border */
+#paragraph2 {
     background-color: white;
     border: 5px solid green;
     padding: 15px;
     margin: 15px;
     line-height: 1.5em;
+}
+
+/* Paragraphs with class="blue" - dark blue background with white text */
+.blue {
+    color: white;
+    background-color: darkblue;
+    padding: 15px;
 }
 
 /* List styling with two-digit numbers */
