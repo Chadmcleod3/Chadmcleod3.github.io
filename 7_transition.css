@@ -1,0 +1,183 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color" #f0f0f0;
+}
+
+#menuItems {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 240px;
+	height: 100%;
+	background-color: black;
+	padding: 0;
+}
+
+#menuItems button{
+	width: 100%;
+	background-color: blue;
+	color: white;
+	border: 1px solid black;
+	padding: 15px;
+	font-size: 18px;
+	text-align: center;
+	transition: background-color 0.3s;
+}
+
+#menuItems button:hover{
+	background-color: darkblue;
+}
+
+#jump Menu{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: goldenrod;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s;
+}
+
+# recentArticles:hover + #jumpMenu, #jumpMenu: hover{
+	max-height: 500px;
+}
+
+#jumpMenu li {
+	margin: 0;
+	padding: 0;
+}
+
+#jumpMenu a {
+	display: block;
+	color: blue;
+	text-decoration: none;
+	padding: 10px 15px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+#jumpMenu a:hover{
+	background-color: blue;
+	color: white;
+}
+
+
+main{
+	margin-left: 240px;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 240px;;
+	width: calc(100%-240px);
+	background-color: red;
+	color: black;
+	padding: 20px;
+	text-align: center;
+}
+
+header p{
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+
+
+h1{
+	text-align: center;
+	color: #333;
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+#container{
+	padding: 20px;
+}
+
+article{
+	width: 300px;
+	background-color: white;
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin: 15px;
+	float: left;
+	color: lightgray;
+	transition: color 2s, padding 2s, margin 2s;
+}
+
+article:hover{
+	color: black;
+	padding: 30px;
+	margin: 5px;
+}
+
+article h2{
+	color: gray;
+	font-size: 20px;
+	margin-top: 0;
+	transition: color 2s;
+}
+
+article:hover h2{
+	color: black;
+}
+
+article p::first-letter{
+	font-family: 'Times New Roman', serif;
+	font-size: 36px;
+}
+
+article p{
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+a[href="http://www.google.com"]::after{
+	content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="%23036" d="M1.5,4.518h5.982V10.5H1.5V4.518z M5.765,1H11v5.39L9.427,7.937l-1.31-1.31L5.393,9.35L2.88,6.838 L5.393,4.326L4.083,3.016L5.765,1z"/></svg>');
+	margin-left: 5px;
+}
+
+#thanks{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: lightblue;
+	color: black;
+	padding: 15px 25px;
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid blue;
+}
+
+#thanks a{
+	color: blue;
+	text-decoration: underline;
+}
+
+footer{
+	background-color: #333;
+	color: white;
+	padding: 30px;
+	text-align: center;
+	clear: both;
+	margin-top: 40px;
+}
+
+footer p{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+address{
+	line-height: 1.8em;
+}
+
+address a{
+	color: #66b3ff;
+	text-decoratiion: none
+}
