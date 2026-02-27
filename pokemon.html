@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Team Builder</title>
+    <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokemon Team Builder</h1>
+        
+        <div class="search-section">
+            <label for="pokemonInput">Name or ID</label>
+            <input type="text" id="pokemonInput" placeholder="Enter pokemon name or ID">
+            <button id="findButton" onclick="findPokemon()">Find</button>
+        </div>
+
+        <div id="pokemonDisplay" style="display: none;">
+            <img id="pokemonImage" src="" alt="Pokemon">
+            
+            <audio id="pokemonSound" controls>
+                <source id="audioSource" src="" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <div class="moves-section">
+                <select id="move1">
+                    <option value="">Select Move 1</option>
+                </select>
+                <select id="move2">
+                    <option value="">Select Move 2</option>
+                </select>
+                <select id="move3">
+                    <option value="">Select Move 3</option>
+                </select>
+                <select id="move4">
+                    <option value="">Select Move 4</option>
+                </select>
+            </div>
+
+            <button id="addToTeamButton" onclick="addToTeam()">Add to Team</button>
+        </div>
+
+        <div id="teamDisplay">
+            <h2>Your Team</h2>
+            <div id="teamList"></div>
+        </div>
+    </div>
+
+    <script src="pokemon.js"></script>
+</body>
+</html>
+	
+		
+	
